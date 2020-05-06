@@ -4,16 +4,13 @@ import styled from "styled-components";
 import MenuList from "./MenuList";
 
 const Container = styled.div`
-  position: relative;
-`;
-
-const Content = styled.div`
+  // position: relative;
   width: 26rem;
   display: flex;
   flex-direction: column;
 `;
 
-const Content2 = styled.div`
+const Content = styled.div`
   position: fixed;
   overflow-y: auto;
   height: 100%;
@@ -28,14 +25,13 @@ const Content2 = styled.div`
 const Profile = styled.div`
   margin: 2rem 0;
 `;
+
 const LeftSideBar = () => {
   return (
     <Container>
       <Content>
-        <Content2>
-          <MenuList />
-          <Profile>content</Profile>
-        </Content2>
+        <MenuList />
+        <Profile>content</Profile>
       </Content>
     </Container>
   );
