@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 
 import Main from "./components/Main";
 import LeftSideBar from "./components/LeftSideBar";
 import RightSideBar from "./components/RightSideBar";
 
-// const Container1 = styled.div`
-//   max-width: 120rem;
-//   margin: 0 auto;
-//   display: flex;
-//   border: 0 solid black;
-//   align-items: stretch;
-//   // position: relative;
-// `;
+const Container = styled.div`
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  border: 0 solid black;
+  align-items: stretch;
+  position: relative;
+`;
 
 const Wrapper = styled.div`
   width: 99rem;
@@ -27,15 +27,15 @@ function App() {
     <Container>
       <Row>
         <Col xs="3">
-          <LeftSideBar></LeftSideBar>
+          <LeftSideBar />
         </Col>
         <Col xs="9">
           <Row>
-            <Col xs="9">
-              <Main></Main>
+            <Col md="8">
+              <Main />
             </Col>
-            <Col xs="3">
-              <RightSideBar></RightSideBar>
+            <Col md="4">
+              <RightSideBar />
             </Col>
           </Row>
         </Col>

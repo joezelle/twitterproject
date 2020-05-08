@@ -4,20 +4,19 @@ import styled from "styled-components";
 import MenuList from "./MenuList";
 
 const Container = styled.div`
-  // position: relative;
-  width: 26rem;
-  display: flex;
-  flex-direction: column;
-`;
-
-const Content = styled.div`
   position: fixed;
-  overflow-y: auto;
-  height: 100%;
-  top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  overflow-y: auto;
+`;
+
+const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   padding-left: 2rem;
   padding-right: 2rem;
 `;
@@ -31,8 +30,8 @@ const LeftSideBar = () => {
     <Container>
       <Content>
         <MenuList />
-        <Profile>content</Profile>
       </Content>
+      <Profile>content</Profile>
     </Container>
   );
 };

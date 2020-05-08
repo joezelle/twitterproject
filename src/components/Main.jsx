@@ -8,14 +8,16 @@ const Container = styled.div`
   // min-width: 60rem;
   width: 100%;
   border: 1px solid rgb(56, 68, 77);
+  border-top: none;
   position: sticky;
+  top: 40px;
 `;
 
 const Home = styled.div`
   position: sticky;
   border-bottom: 1px solid rgb(56, 68, 77);
   z-index: 4;
-  top: 0px;
+  top: -1px;
   height: 5.3rem;
   padding: 0 1.5rem 0;
   display: flex;
@@ -117,6 +119,171 @@ const Main = () => {
       WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
       ITS TIME TO REBOOT..."
         link="google.com"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
       />
       <Tweets
         retweet="emmax retweeted"

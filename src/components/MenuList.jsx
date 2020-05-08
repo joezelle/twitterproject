@@ -3,10 +3,12 @@ import styled from "styled-components";
 
 import MenuItem from "./MenuItem";
 
-// const Container = styled.div`
-//   // align-items: flex-start;
-//   // position: relative;
-// `;
+const Container = styled.div`
+  align-items: flex-start;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+`;
 const Logo = styled.h1`
   max-width: 100%;
   padding: 0.2rem 0;
@@ -36,7 +38,7 @@ const Button = styled.div`
 const Link = styled.a``;
 const MenuList = () => {
   return (
-    <>
+    <Container>
       <Logo>Twitter</Logo>
       <MenuItem Icon="BB" Word="Explore" />
       <MenuItem Icon="BB" Word="Notifications" />
@@ -46,7 +48,7 @@ const MenuList = () => {
       <MenuItem Icon="BB" Word="Profile" />
       <MenuItem Icon="BB" Word="More" />
       <Button>Tweet</Button>
-    </>
+    </Container>
   );
 };
 

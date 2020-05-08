@@ -6,7 +6,7 @@ const Container = styled.div`
   width: 100%;
   font-size: 1.9rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 `;
 
