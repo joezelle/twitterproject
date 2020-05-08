@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Tweets from "./TweetCard";
-
+import pic from "../assets/images/black-and-white-boat-darkness-748626.jpg";
 const Container = styled.div`
   // max-width: 60rem;
   // margin: 0;
@@ -47,7 +47,7 @@ const picture = {
   margin: "0 0.5rem",
   borderRadius: "99rem",
   border: "1px solid rgba(0,0,0,0.04)",
-  height: "4.9rem",
+  height: "4.5rem",
   backgroundColor: "#fef",
 };
 const width = {
@@ -109,6 +109,28 @@ const Main = () => {
         </div>
       </TweetBox>
       <Tweets
+        name="Joyviva"
+        handle="@dino_melaye 19h"
+        tweet="Collaborate like you’re sitting side-by-side on an online whiteboard. Free forever. No credit card required. bit.ly/33stJIp"
+      />
+
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Javascript Teacher"
+        handle="@js_tut 19h"
+        tweet="If you have to learn Computer Science to use a framework or a library, it failed.
+
+        Those who create frameworks and libraries have a different purpose from those who use them.
+        
+        Building and using are two different things.
+        
+        There are less builders than users.
+        
+        Just some thoughts."
+      />
+      <Tweets name="Jack Falahee" handle="@RestingPlatypus 19h" image={pic} />
+      <Tweets
         retweet="emmax retweeted"
         icon="b"
         name="Senator Dino Melaye"
@@ -118,6 +140,60 @@ const Main = () => {
       OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
       WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
       ITS TIME TO REBOOT..."
+        image={pic}
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
+        link="google.com"
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        image={pic}
+      />
+      <Tweets
+        retweet="emmax retweeted"
+        icon="b"
+        name="Senator Dino Melaye"
+        handle="@dino_melaye 19h"
+        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
+      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
+      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
+      ITS TIME TO REBOOT..."
+        title="Stupid man"
+        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
         link="google.com"
       />
       <Tweets
@@ -148,7 +224,6 @@ const Main = () => {
         title="Stupid man"
         details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
         link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
       />
       <Tweets
         retweet="emmax retweeted"
@@ -163,112 +238,6 @@ const Main = () => {
         title="Stupid man"
         details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
         link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
-      />
-      <Tweets
-        retweet="emmax retweeted"
-        icon="b"
-        name="Senator Dino Melaye"
-        handle="@dino_melaye 19h"
-        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
-      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
-      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
-      ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
-      />
-      <Tweets
-        retweet="emmax retweeted"
-        icon="b"
-        name="Senator Dino Melaye"
-        handle="@dino_melaye 19h"
-        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
-      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
-      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
-      ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
-      />
-      <Tweets
-        retweet="emmax retweeted"
-        icon="b"
-        name="Senator Dino Melaye"
-        handle="@dino_melaye 19h"
-        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
-      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
-      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
-      ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
-      />
-      <Tweets
-        retweet="emmax retweeted"
-        icon="b"
-        name="Senator Dino Melaye"
-        handle="@dino_melaye 19h"
-        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
-      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
-      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
-      ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
-      />
-      <Tweets
-        retweet="emmax retweeted"
-        icon="b"
-        name="Senator Dino Melaye"
-        handle="@dino_melaye 19h"
-        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
-      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
-      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
-      ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
-      />
-      <Tweets
-        retweet="emmax retweeted"
-        icon="b"
-        name="Senator Dino Melaye"
-        handle="@dino_melaye 19h"
-        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
-      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
-      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
-      ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
-      />
-      <Tweets
-        retweet="emmax retweeted"
-        icon="b"
-        name="Senator Dino Melaye"
-        handle="@dino_melaye 19h"
-        tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
-      WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
-      WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
-      ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
       />
       <Tweets
         retweet="emmax retweeted"
@@ -310,10 +279,7 @@ const Main = () => {
       OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
       WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
       ITS TIME TO REBOOT..."
-        title="Stupid man"
-        details="jdjdflskfjsdklsjlfjsklfjslkjfsdkljfsdf"
-        link="google.com"
-        Image="src='../assets/images/black-and-white-boat-darkness-748626.jpg'"
+        image={pic}
       />
       <Tweets
         retweet="emmax retweeted"
@@ -337,9 +303,10 @@ const Main = () => {
         handle="@dino_melaye 19h"
         tweet="EVERYONE WHO HELD AND IS HOLDING ANY POLITICAL OFFICE IN NIGERIA
       WHETHER ELECTIVE OR APPOINTED INCLUDING ME HAVE FAIL.WE SOLD CRUDE
-      OIL FOR 64 YEARS BUT WE COULDN'T FEED OUR CITIZENS FOR JUST 2
+      OIL FOR 64 YEARS BUT WE COULDN'T FE;ksd;k;slkf;lskdf;lskED OUR CITIZENS FOR JUST 2
       WEEKS OF LOCKDOWN!! WELL, THE GOD OF THE POOR WILL JUDGE US ALL.
       ITS TIME TO REBOOT..."
+        imageonly={pic}
       />
     </Container>
   );

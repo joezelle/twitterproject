@@ -16,41 +16,49 @@ const Content = styled.div`
   padding: 0.5rem 1.5rem;
 `;
 
-const Article = styled.div`
-  padding-bottom: 10px;
-  justify-content: center;
-  margin: 0 0.5rem;
-  display: flex;
-`;
-
 const Tweet = styled.div`
 line-height: 1.3125
+padding-bottom: 10px;
+margin: 0.5rem 0.5rem;
 color: inherit;
     font: inherit;
     white-space: inherit;
 `;
 
 const Name = styled.span`
-  font-size = 1.5rem;
-  font-weight =700
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0.5rem 1.5rem;
+  padding-bottom: 1rem;
 `;
 const handle = {
   fontSize: "1.5rem",
   color: "#586744",
+  marginLeft: "0.5rem",
 };
 
 const ImageCard = styled.div`
   margin-top: 1rem;
-  backgroundColor: "rgba(255, 255, 255, 0.03)",
-  border-radius : 1.4rem;
-  border: 1px solid rgb(56, 68, 77)
+  backgroundcolor: rgba(255, 255, 255, 0.03);
+  border-radius: 1.4rem;
+  border: 1px solid rgb(56, 68, 77);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+`;
+const Imageonly = styled.div`
+  margin-top: 1rem;
+  backgroundcolor: rgba(255, 255, 255, 0.03);
+  border-radius: 1.4rem;
+  border: 1px solid rgb(56, 68, 77);
   overflow-x: hidden;
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
 `;
 
-const Image = styled.div`
+const Image = styled.img`
   cursor: pointer;
   height: 100%;
   width: 100%;
@@ -65,6 +73,7 @@ const Desc = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 1rem;
+  line-height: 1.5rem;
 `;
 const picture = {
   flexBasis: "4.9rem",
@@ -72,14 +81,11 @@ const picture = {
   margin: "0 0.5rem",
   borderRadius: "99rem",
   border: "1px solid rgba(0,0,0,0.04)",
-  height: "4.9rem",
+  height: "4.5rem",
   backgroundColor: "#fef",
 };
 const width = {
   width: "100%",
-};
-const desc = {
-  paddingBottom: "0.3rem",
 };
 
 const Retweet = styled.div`
@@ -96,6 +102,10 @@ const icon = {
   margin: "0 0.5rem",
   textAlign: "right",
 };
+// const imag = {
+//   width: "4.9rem",
+//   height: "4.9rem",
+// };
 
 const Wrapper = styled.div`
   margin-top: 1rem;
@@ -118,19 +128,17 @@ const TweetCard = (props) => {
           <Name>
             <span>{props.name}</span>
             <span style={handle}>{props.handle}</span>
-            <span>d</span>
           </Name>
-          <Article>
-            <Tweet>{props.tweet}</Tweet>
-          </Article>
+          <Tweet>{props.tweet}</Tweet>
           <ImageCard>
-            <Image>{props.Image}</Image>
+            <Image src={props.image} />
             <Desc>
-              <div style={desc}>{props.title}</div>
-              <div style={desc}>{props.details}</div>
-              <div style={desc}>{props.link}</div>
+              <span>{props.title}</span>
+              <span>{props.details}</span>
+              <span>{props.link}</span>
             </Desc>
           </ImageCard>
+
           <Wrapper>
             <Notification icon="B" number="4.5k" />
             <Notification icon="B" number="4.5k" />
