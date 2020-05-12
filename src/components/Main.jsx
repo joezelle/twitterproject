@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Tweets from "./TweetCard";
-import pic from "../assets/images/black-and-white-boat-darkness-748626.jpg";
+import pic from "../assets/images/download.jpg";
 const Container = styled.div`
   // max-width: 60rem;
   // margin: 0;
